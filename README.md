@@ -1,16 +1,16 @@
 # E-Commerce-Sales-Dashboard
-📘**Project Overview​**
+1 📘**Project Overview​**
 
 The E‑Commerce Sales Dashboard is an interactive Power BI report that provides a comprehensive view of sales amount, profit, quantity, and AOV with drill‑downs by state, category, sub‑category, customer, and payment mode.​
 It enables quick decision‑making by revealing trends, top drivers, and areas of margin risk in a clean, actionable layout.​
 
 
-🎯 **Objective​**
+2 🎯 **Objective​**
 
 Analyze overall sales and profitability across months, regions, and product mix to support marketing and supply decisions.​
 Identify high‑value customers and sub‑categories, track discount impact on profit, and monitor seasonal peaks/dips.​
 
-📊**Key Performance Indicators (KPIs)​**
+3 📊**Key Performance Indicators (KPIs)​**
 
 **Total Sales (Amount)** = SUM(Orders[Sales]) — headline KPI card.​
 
@@ -21,7 +21,7 @@ Identify high‑value customers and sub‑categories, track discount impact on p
 **Total Orders =** DISTINCTCOUNT(Orders[Order ID]) and Total Quantity = SUM(Orders[Quantity]).
 
 
-📈**Dashboard Insights​**
+4 📈**Dashboard Insights​**
 
 **Monthly Trend:** Profit by Month chart shows clear seasonality with a few negative months indicating margin erosion requiring pricing/discount review.​
 
@@ -32,7 +32,7 @@ Identify high‑value customers and sub‑categories, track discount impact on p
 **Customer & Payment:** Top customers contribute outsized revenue; payment mode share from the donut chart guides checkout optimization.
 
 
-🧮**Data Model & Source​**
+5 🧮**Data Model & Source​**
 
 **Star schema:** Fact Orders with dimensions Date, Product/Category, Geography (State/City), and Customer; relationships on Date and keys as appropriate.​
 
@@ -44,7 +44,7 @@ Created calculated columns and DAX measures for KPIs
 Applied data modeling for relationships across dimensions
 
 
-⚙️**Tools & Technologies**
+6 ⚙️**Tools & Technologies**
 
 **Power BI Desktop**– Data visualization and dashboard creation
 
@@ -55,7 +55,7 @@ Applied data modeling for relationships across dimensions
 **Microsoft Excel**– Raw data source
 
 
-📉**Visual Components​**
+7 📉**Visual Components​**
 
 **KPI Cards:** Sales Amount, AOV, Profit, Quantity to summarize performance at a glance.​
 
@@ -66,3 +66,9 @@ Applied data modeling for relationships across dimensions
 **Donut Charts**: Quantity share by Category and by Payment Mode to show mix.​
 
 **Slicers:** Quarter and State filters for quick focus and exploration.​
+
+
+8 **Secreenshorts \ Demo**
+
+Show what the dashboard looks like-
+https://github.com/nisha74995/E-Commerce-Sales-Dashboard/blob/main/Screenshot%202025-11-14%20183138.png
