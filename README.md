@@ -72,3 +72,5 @@ Applied data modeling for relationships across dimensions
 
 Show what the dashboard looks like- ![Alt text](https://github.com/username/repo/assets/imge.png).
 example: ![Dashboard preview].(https://github.com/nisha74995/E-Commerce-Sales-Dashboard/blob/main/Screenshot%202025-11-14%20212752.png)
+<img width="1278" height="722" alt="image" src="https://github.com/user-attachments/assets/bf5087a2-5fb3-4822-8c12-ff52abc1c0d6" />
+
